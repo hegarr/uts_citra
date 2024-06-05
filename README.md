@@ -1,8 +1,8 @@
-| Nama      | Muhammad Din Al Ayubi |
-| ----------- | ----------- |
-| NIM     | 312210293       |
-| Kelas   | TI.22.A.3        |
-| Tugas   | UTS PENGELOLAAN CITRA        |
+| Nama      | Mohamad Hegar Sukmana Wibowo |
+| --------- | -----------                  |
+| NIM       | 312210332                    |
+| Kelas     | TI.22.A.3                    |
+| Tugas     | UTS PENGELOLAAN CITRA        |
 # RGB ke HSV
 Biasanya objek dalam gambar mempunyai warna (rona) dan luminositas yang berbeda, sehingga fitur tersebut dapat digunakan untuk memisahkan area berbeda pada gambar. Dalam representasi RGB, rona dan luminositas dinyatakan sebagai kombinasi linier saluran R,G,B, sedangkan saluran tersebut berhubungan dengan saluran tunggal gambar HSV (saluran Hue dan Nilai). Segmentasi sederhana pada gambar kemudian dapat dilakukan secara efektif hanya dengan melakukan ambang batas saluran HSV.
 ```bash
@@ -234,8 +234,8 @@ adjusted_image_gray = adjust_brightness_contrast(image_gray, brightness=50, cont
 
 plot_images(image_gray, adjusted_image_gray, title1="Original Grayscale Image", title2="Brightness & Contrast Adjusted", cmap_val='gray')
 ```
-![img](pcitra/brignest&contras.png)
-![img](pcitra/brignest&contras2.png)
+![img](pcitra/Figure_1.png)
+![img](pcitra/Figure_2.png)
 # Contour
 Ilustrasikan pembuatan plot kontur sederhana, kontur pada gambar dengan bilah warna untuk kontur, dan kontur yang diberi label.
 ```bash
